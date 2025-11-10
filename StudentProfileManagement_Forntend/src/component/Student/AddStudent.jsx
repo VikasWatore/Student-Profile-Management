@@ -63,7 +63,7 @@ const AddStudent = () => {
 					<div className="col-auto ">
 						<button
 							type="submit"
-							className="btn btn-outline-success btn-lg mx-3">
+							className="btn btn-outline-dark btn-lg mx-3">
 							Save
 						</button>
 					</div>
@@ -72,7 +72,7 @@ const AddStudent = () => {
 						<Link
                         to={"/view-students"}
                         type="submit"
-							className="btn btn-outline-warning btn-lg mx-3">
+                            className="btn btn-outline-dark btn-lg mx-3">
 							Cancel
 						</Link>
 					</div>
